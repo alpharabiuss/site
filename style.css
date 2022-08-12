@@ -1,0 +1,51 @@
+/*
+   /\                 /\
+  / \'._   (\_/)   _.'/ \
+ /_.''._'--('.')--'_.''._\
+ | \_ / `;=/ " \=;` \ _/ |
+  \/ `\__|`\___/`|__/`  \/
+   `      \(/|\)/       `
+           " ` "
+*/
+@font-face {
+    font-family: "Cascadia Code";
+    src: url("Font/woff2/CascadiaCode.woff2") format("woff"),
+    url("Font/otf/static/CascadiaCode-Regular.otf") format("opentype"),
+    url("Font/ttf/CascadiaCode.ttf") format("ttf");
+    }
+body{
+    overflow: auto;
+    font-family: Cascadia Code;
+    background-color: rgb(50, 50, 50);
+    color: rgb(200, 200, 200);
+    text-align: center;
+}
+h3{
+    width: 90% !important;
+    position: relative;
+    margin: auto;
+}
+.qr{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.address{
+    padding: 10px 5px 10px 5px;
+    word-break: break-all;
+}
+
+  ::-webkit-scrollbar {
+    width: 3px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(130, 130, 130);
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
